@@ -19,6 +19,8 @@
 		4591FBDB17FE6D9200A3EEA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4591FBC317FE6D9200A3EEA1 /* UIKit.framework */; };
 		4591FBE317FE6D9200A3EEA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4591FBE117FE6D9200A3EEA1 /* InfoPlist.strings */; };
 		4591FBE517FE6D9200A3EEA1 /* tempconvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4591FBE417FE6D9200A3EEA1 /* tempconvertTests.m */; };
+		4591FBF117FE732600A3EEA1 /* tempconvertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4591FBEF17FE732600A3EEA1 /* tempconvertVC.m */; };
+		4591FBF217FE732600A3EEA1 /* tempconvertVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4591FBF017FE732600A3EEA1 /* tempconvertVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		4591FBE017FE6D9200A3EEA1 /* tempconvertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tempconvertTests-Info.plist"; sourceTree = "<group>"; };
 		4591FBE217FE6D9200A3EEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4591FBE417FE6D9200A3EEA1 /* tempconvertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tempconvertTests.m; sourceTree = "<group>"; };
+		4591FBEE17FE732600A3EEA1 /* tempconvertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempconvertVC.h; sourceTree = "<group>"; };
+		4591FBEF17FE732600A3EEA1 /* tempconvertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tempconvertVC.m; sourceTree = "<group>"; };
+		4591FBF017FE732600A3EEA1 /* tempconvertVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tempconvertVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				4591FBCF17FE6D9200A3EEA1 /* gcAppDelegate.m */,
 				4591FBD117FE6D9200A3EEA1 /* Images.xcassets */,
 				4591FBC617FE6D9200A3EEA1 /* Supporting Files */,
+				4591FBEE17FE732600A3EEA1 /* tempconvertVC.h */,
+				4591FBEF17FE732600A3EEA1 /* tempconvertVC.m */,
+				4591FBF017FE732600A3EEA1 /* tempconvertVC.xib */,
 			);
 			path = tempconvert;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4591FBCA17FE6D9200A3EEA1 /* InfoPlist.strings in Resources */,
+				4591FBF217FE732600A3EEA1 /* tempconvertVC.xib in Resources */,
 				4591FBD217FE6D9200A3EEA1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4591FBF117FE732600A3EEA1 /* tempconvertVC.m in Sources */,
 				4591FBD017FE6D9200A3EEA1 /* gcAppDelegate.m in Sources */,
 				4591FBCC17FE6D9200A3EEA1 /* main.m in Sources */,
 			);
