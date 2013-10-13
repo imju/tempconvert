@@ -9,6 +9,10 @@
 #import "tempconvertVC.h"
 
 @interface tempconvertVC ()
+
+@property (nonatomic) float fVal;
+@property (nonatomic) float cVal;
+
 @property (weak, nonatomic) IBOutlet UITextField *fInput;
 @property (weak, nonatomic) IBOutlet UITextField *cInput;
 

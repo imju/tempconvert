@@ -10,7 +10,5 @@
 
 @interface tempconvertVC : UIViewController
 
-@property (nonatomic) float fVal;
-@property (nonatomic) float cVal;
 
 @end
